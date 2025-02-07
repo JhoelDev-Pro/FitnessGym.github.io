@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("Imagenes/background.jpg");
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header{
+    background-color: #F9B801;
+    
+    
+}
+.Main {
+    display: flex;
+    flex-direction: column;
+}
+
+.elmHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+.txtHeader{
+    font-size: 25px;
+    margin: 30px 0px 0px 200px;
+    text-decoration: none;
+    color: black;
+    font-family: "Kanit";
+}
+.logo{
+    margin: 10px;
+}
+
+.ImgPrincipal{
+    
+    margin: 20px 225px 0px 225px;
+}
+
+.TxtTitulos {
+    color: #F9B801;
+    font-family: "Kanit";
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Servicios{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.ImgServicios {
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.ImgHorarios{
+    width: 600px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 0px 0px 0px 375px;
+}
+.ImgHorarios2{
+    margin: 300px 0px 0px 0px;
+}
+
+.Video{
+    border-radius: 10px;
+    border: solid 3px black;
+}
+.Videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 35px 0px 35px 0px;
+}
+
+footer{
+    margin: 50px 0px 0px 0px;
+    padding: 10px;
+    background-color: #F9B801;
+}
+
+.PieFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.PieFooter2{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 800px;
+}
+
+.txtFooter{
+    font-family: "Kanit";
+    font-size: 25px;
+}
+ 
+.ImgFooter{
+   
+    margin: 0px 10px 0px 10px;
+}
