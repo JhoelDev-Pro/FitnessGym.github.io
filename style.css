@@ -120,9 +120,13 @@ footer{
         display: none;
     }
     
-    .Videos{
-        width: 100%;
+    .Video{
+        width: 28%;
     }
+    .Video:last-child {
+        display: none;
+    }
+    
     .ImgFooter{
         width: 25px; 
         height: 25px;
