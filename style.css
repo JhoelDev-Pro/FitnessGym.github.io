@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("Imagenes/background.jpg");
+    width: 100%;
+
+}
+
+header{
+    background-color: #F9B801;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 350px;
+    
+}
+.logo {
+    width: 10%;
+    padding: 10px;
+    animation-name: EntradaIzq;
+    animation-duration: 3s;
+    
+}
+.Main {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.txtHeader{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: "Kanit";
+    margin: 25px 0px 0px 0px;
+
+    animation-name: EntradaAbj;
+    animation-duration: 3s;
+  
+}
+
+.txtHeader:hover{
+    font-size: 30px;
+}
+.txtHeader:focus{
+    color: white;
+}
+
+.ImgInicial{
+    margin: 15px 200px 15px 200px;
+    width: 70%;
+    animation-name: Entrada;
+    animation-duration: 3s;
+}
+
+.TxtTitulos {
+    color: #F9B801;
+    font-family: "Kanit";
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.ImgServicios {
+    border: 3px solid black;
+    border-radius: 3px;
+    margin: 0px 65px 0px 65px;
+    width: 40%;
+}
+
+.ImgHorarios{
+    width: 50%;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 0px 325px 25px 325px;
+}
+.ImgPersonas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ImgPersonas2{
+    margin: 150px 0px 0px 0px;
+}
+
+.Video{
+    border-radius: 10px;
+    border: solid 3px black;
+    width: 15%;
+}
+.Videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 35px 0px 15px 0px;
+}
+
+footer{
+    min-width: 350px;   
+    display: flex;
+    flex-direction: row;
+    background-color: #F9B801;
+    padding: 10px;
+}
+
+.txtFooter{
+    font-family: "Kanit";
+    font-size: 25px;
+    margin: 5px 0px 0px 0px;
+    font-weight: 500;
+}
+ 
+.ImgFooter{
+    
+    width: 50px; 
+    height: 50px;
+    margin: 0px 10px 0px 10px;
+}
+
+@keyframes Entrada{
+    0%{
+        transform: scale(0.01);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes EntradaIzq{
+    0%{
+        transform: translate(-300px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+@keyframes EntradaAbj{
+    0%{
+        transform: translate(0px, -100px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+@media (max-width: 600px){
+    .txtHeader{
+        font-size: 15px;
+        margin: 10px 0px 0px 0px;
+    }
+    .ImgPersonas2{
+        display: none;
+    }
+    
+    .Video{
+        width: 28%;
+    }
+    .Video:nth-child(3) {
+        display: none;
+    }
+
+    .ImgFooter{
+        width: 25px; 
+        height: 25px;
+    }
+    .txtFooter{
+       margin: 0px 0px 0px 0px;
+        font-size: 15px;
+    }
+    .TxtTitulos {
+        font-size: 20px;
+    }
+    .ImgInicial{
+        width: 95%;
+        margin: 15px 10px 15px 10px;
+    }
+    .ImgHorarios{
+        width: 75%;
+        margin: 10px 50px 15px 50px;
+    }
+    .ImgServicios{
+        width: 75%;
+        margin: 10px 45px 0px 45px;
+    }
+}
