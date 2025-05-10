@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Imagenes/background.jpg");
+}
+header{
+    background-color: #F9B801;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.logo{
+    width: 8%;
+    padding: 10px;
+    
+}
+
+.txtHeader{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: "Kanit";
+    margin: 25px 0px 0px 0px;
+
+  
+}
+.Secion{
+    display: flex;
+    justify-content: space-between;
+}
+#video{
+  
+    width: 22.5%;
+}
+.Entrada{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    margin: 35px 0px 35px 0px;
+    border: 3px solid white;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}
+
+.TxtTitulo{
+    font-family: "Kanit";
+    text-align: center;
+}
+
+.Txt{
+    font-family: "Kanit";
+    margin: 0px 0px 0px 50px;
+}
+
+.Entradas{
+    width: 75%;
+    margin: 0px 50px 0px 50px;
+}
+.boton{
+    width: 30%;
+    height: 8%;
+    margin: 0px 142px 0px 142px;
+    font-family: "Kanit";
+    background-color: #F9B801;
+    border-color: #F9B801;
+}
+
+@media (max-width: 600px){
+
+    #video{
+        display: none;
+    }
+    .txtHeader{
+        font-size: 15px;
+        
+    }
+    .logo{
+        width: 12%;
+        height: 8%;
+    }
+    .Entrada{
+        width: 325px;
+        height: 375px;
+        margin: 25px 22.5px 0px 22.5px;
+    }
+    .boton{
+        margin: 0px 115px 0px 115px;
+    }
+
+}
